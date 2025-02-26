@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 3100px;
+    background: #eff4fd;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 14.5%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+    
+}
+
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images{
+    top: 25%;
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .girl{
+    left: 45%;
+}
+
+.social{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: orange;
+}
+
+/* 1st copy */
+
+.detel1{
+    margin-left: 8%;
+    margin-top: 35%;
+}
+
+.detel1 h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+    
+}
+
+.detel1 p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel1 a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images1{
+    top: 125%;
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images1 img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images1:hover .shape{
+    bottom: 40px;
+}
+
+.images1:hover .girl{
+    left: 45%;
+}
+
+/* 2nd copy */
+
+.detel2{
+    margin-left: 8%;
+    margin-top: 30.5%;
+}
+
+.detel2 h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+    
+}
+
+.detel2 p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel2 a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images2{
+    top: 225%;
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images2 img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images2:hover .shape{
+    bottom: 40px;
+}
+
+.images2:hover .girl{
+    left: 45%;
+}
+
+/* 3rd copy */
+
+.detel3{
+    margin-left: 8%;
+    margin-top: 30.5%;
+}
+
+.detel3 h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+    
+}
+
+.detel3 p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel3 a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images3{
+    top: 325%;
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images3 img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images3:hover .shape{
+    bottom: 40px;
+}
+
+.images3:hover .girl{
+    left: 45%;
+}
+
+@media only screen and (max-width: 480px) {
+    *{
+        
+        background: #eff4fd;
+    }
+    .hero {
+        width: 100%;
+        height: 4743px;
+        background: #eff4fd;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo {
+        max-width: 100%;
+    }
+    
+    ul {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    li {
+        margin-bottom: 1rem;
+    }
+    
+    a {
+        font-size: 1.2rem;
+    }
+    .detel {
+        margin-left: 16%;
+        margin-top: 6px;
+    }
+    .images {
+        top: 25%;
+        width: 45%;
+        height: 80%;
+        position: absolute;
+        bottom: 0;
+        top: 682px;
+        right: 100px;
+    }
+    .images img {
+        height: 100%;
+        width: 394px;
+        position: absolute;
+        left: 77px;
+        /* bottom: 0; */
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .detel1 {
+        margin-left: 8%;
+        margin-top: 834px;
+    }
+    .images1 {
+        top: 1751px;
+        width: 45%;
+        height: 80%;
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+    }
+    .images1 img {
+        height: 100%;
+        width: 391px;
+        position: absolute;
+        left: 78px;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .detel2 {
+        margin-left: 8%;
+        margin-top: 827px;
+    }
+    .images2 {
+        top: 2817px;
+        width: 45%;
+        height: 80%;
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+    }
+    .images2 img {
+        height: 100%;
+        width: 400px;
+        position: absolute;
+        left: 79px;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+    .detel3 {
+        margin-left: 8%;
+        margin-top: 839px;
+    }
+    .images3 {
+        top: 3979px;
+        width: 45%;
+        height: 80%;
+        position: absolute;
+        bottom: 0;
+        right: 100px;
+    }
+    .images3 img {
+        height: 100%;
+        width: 356px;
+        position: absolute;
+        left: 80px;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+}
